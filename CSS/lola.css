@@ -1,0 +1,66 @@
+/* CSS for the Lola Bunny page */
+/* font-family: 'Satisfy', cursive; */
+/* font-family: 'Sniglet', cursive; */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+body img{
+    max-width: 800px;
+    /* min-width: 800px; */
+}
+header{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #c49d6c;
+}
+header h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+}
+header img{
+    border-radius: 300px;
+    width: 300px;
+    border: 10px solid #d6d662;
+}
+h1, h2{
+    font-family: 'Sniglet', cursive;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2{
+    font-size: 35px;
+    color:#dd840f;
+    margin: 40px 0 10px;
+}
+p.caption{
+    color: #777777;
+    font-style: italic;
+    margin-top: 0;
+}
+footer{
+    background-color: #c49d6c;
+    text-align: center;
+    color: black;
+    padding: 50px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color: rgb(193, 7, 250);
+}
+footer a:hover{
+    /* opacity: .5; */
+    background-color: transparent;
+    color: #fcfc06;
+}
